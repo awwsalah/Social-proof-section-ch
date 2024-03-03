@@ -102,6 +102,7 @@ body{
     grid-row: 1 /2;
     border-radius: 10px;
     padding: 20px;
+    
 }
 .card-2{
     background-color: var(--dark-megenta);
@@ -109,6 +110,7 @@ body{
     grid-row: 1 /2;
     border-radius: 10px;
     padding: 20px;
+    margin-top: 10px;
 }
 .card-3{
     background-color: var(--dark-megenta);
@@ -116,6 +118,7 @@ body{
     grid-row: 1 /2;
     border-radius: 10px;
     padding: 20px;
+    margin-top: 20px;
 }
 .user{
     display: flex;
@@ -209,21 +212,21 @@ h2{
 
 
 
+@media only screen and (max-width: 1600px){
+    body{
+        padding: 100px 370px;
+    }
+    
+}
 @media only screen and (max-width: 1400px){
     body{
-        padding: 140px;
+        padding: 100px 300px;
     }
     
 }
-@media only screen and (max-width: 1000px){
+@media only screen and (max-width: 1300px){
     body{
-        padding: 90px;
-    }
-    
-}
-@media only screen and (max-width: 800px){
-    body{
-        padding: 100px 60px;
+        padding: 100px 250px;
         
     }
     .flex{
@@ -231,12 +234,33 @@ h2{
     }
   
 }
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 1200px){
     body{
-        padding: 90px 30px;
+        padding: 90px 180px;
     }
     .flex{
         gap: 8px;
+    }
+   
+    
+}
+@media only screen and (max-width: 900px){
+    body{
+        padding: 90px 50px;
+    }
+    .flex{
+        gap: 8px;
+    }
+   
+    
+}
+
+@media only screen and (max-width: 800px){
+    body{
+        padding: 90px 20px;
+    }
+    .flex{
+        gap: 5px;
     }
    
     
